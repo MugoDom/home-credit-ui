@@ -25,7 +25,7 @@ export default function App() {
   const [result, setResult] = useState(null);
   const [error, setError] = useState("");
 
- const backendUrl = "https://home-credit-backend.onrender.com/predict";
+ const backendUrl = "https://home-credit-deafult-risk.onrender.com/predict";
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
